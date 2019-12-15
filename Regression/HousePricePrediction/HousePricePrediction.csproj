@@ -17,4 +17,10 @@
     <ProjectReference Include="..\..\CNTKUtil\CNTKUtil.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="california_housing.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
