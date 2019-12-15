@@ -12,7 +12,7 @@ namespace StyleTransferDemo
     {
         // paths to the content and style images
         static readonly string contentImagePath = @"K:\private\intellibrain\Dokumente\Fav Rene\ReneSusanne1.jpg";
-        static readonly string styleImagePath = "style.png";
+        static readonly string styleImagePath = @"style4.jpg";
 
         // the width and height to resize the images to
         static readonly int imageHeight = 400;
