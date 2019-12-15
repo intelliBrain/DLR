@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +12,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\CNTKUtil\CNTKUtil.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="frog_pictures.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
